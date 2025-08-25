@@ -1,5 +1,3 @@
-🌍 Computer Science student at Strathmore University | Turning ideas into code, from web platforms to AI experiments. Passionate about building solutions that matter and documenting the journey along the way.
-
 # 💫 About Me:
 🎓 CS student @ Strathmore University | 💻 Web Design Enthusiast | 🤖 Exploring AI<br>✨ Skilled in HTML, CSS, JavaScript, and Database Management<br>🚀 Passionate about building user-friendly platforms and blending creativity with technology.
 
