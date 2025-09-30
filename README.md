@@ -37,6 +37,16 @@
 [![Microsoft Learn](https://img.shields.io/badge/Microsoft_Learn_Profile-258FFA?style=for-the-badge&logo=microsoft&logoColor=white)](https://learn.microsoft.com/en-us/users/edwinkamau-8497/)  
 
 </div>
+<div align="center">
+
+# 📊 Microsoft Learn Progress
+
+![Learn Stats](learn_stats.png)
+
+[![Microsoft Learn](https://img.shields.io/badge/View%20My%20Profile-258FFA?style=for-the-badge&logo=microsoft&logoColor=white)](https://learn.microsoft.com/en-us/users/edwinkamau-8497/)
+
+</div>
+
 
 ---
 
