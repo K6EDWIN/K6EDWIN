@@ -2,8 +2,11 @@ name: Update Microsoft Learn Stats
 
 on:
   schedule:
-    - cron: "0 */12 * * *"  # Runs every 12 hours
-  workflow_dispatch:        # Allow manual trigger
+    - cron: "0 */12 * * *"  # every 12 hours
+  workflow_dispatch:
+
+permissions:
+  contents: write   # ✅ allow pushing to repo
 
 jobs:
   update-readme:
@@ -11,6 +14,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}   # ✅ use built-in token with write perms
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -28,5 +33,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md learn_stats.png
-          git commit -m "Update Microsoft Learn stats"
+          git diff-index --quiet HEAD || git commit -m "Update Microsoft Learn stats"
           git push
