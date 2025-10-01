@@ -39,13 +39,12 @@
 </div>
 <div align="center">
 
-# 📊 Microsoft Learn Progress
+# 🏅 Microsoft Learn Stats  
 
-![Learn Stats](learn_stats.png)
-
-[![Microsoft Learn](https://img.shields.io/badge/View%20My%20Profile-258FFA?style=for-the-badge&logo=microsoft&logoColor=white)](https://learn.microsoft.com/en-us/users/edwinkamau-8497/)
+![Microsoft Learn Stats](https://k6-edwin.vercel.app/api/learn?username=edwinkamau-8497&theme=dark)
 
 </div>
+
 
 
 ---
