@@ -4,7 +4,13 @@
       "runtime": "nodejs20.x",
       "maxDuration": 60,
       "memory": 1024,
-      "includeFiles": ["node_modules/puppeteer/.local-chromium/**/*"]
+      "includeFiles": "node_modules/puppeteer/.local-chromium/**/*"
+    }
+  },
+  "build": {
+    "env": {
+      "PUPPETEER_CACHE_DIR": ".cache/puppeteer",
+      "PUPPETEER_SKIP_CHROMIUM_DOWNLOAD": "false"
     }
   }
 }
