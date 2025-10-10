@@ -1,16 +1,10 @@
 {
   "functions": {
     "api/learn.js": {
-      "runtime": "nodejs20.x",
+      "runtime": "vercel-node@20.0.0",
       "maxDuration": 60,
       "memory": 1024,
       "includeFiles": "node_modules/puppeteer/.local-chromium/**/*"
-    }
-  },
-  "build": {
-    "env": {
-      "PUPPETEER_CACHE_DIR": ".cache/puppeteer",
-      "PUPPETEER_SKIP_CHROMIUM_DOWNLOAD": "false"
     }
   }
 }
