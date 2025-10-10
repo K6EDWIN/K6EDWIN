@@ -4,20 +4,35 @@ export default async function handler(req, res) {
   try {
     const { username = "edwinkamau-8497", theme = "dark" } = req.query;
     const url = `https://learn.microsoft.com/en-us/users/${username}/`;
-    const response = await fetch(url);
+
+    // Fetch the Microsoft Learn profile
+    const response = await fetch(url, {
+      headers: {
+        // Some sites require a User-Agent
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      }
+    });
+
+    // Handle non-200 responses
     if (!response.ok) {
-      throw new Error(`Failed to fetch profile: ${response.status}`);
+      const statusText = response.status === 404 ? "Profile not found" : `HTTP ${response.status}`;
+      throw new Error(statusText);
     }
 
     const html = await response.text();
     const $ = cheerio.load(html);
-    const pointsMatch = html.match(/([\d,]+) points/);
-    const levelMatch = html.match(/Level (\d+)/);
+
+    // Extract points and level using regex
+    const pointsMatch = html.match(/([\d,]+) points/i);
+    const levelMatch = html.match(/Level (\d+)/i);
     const points = pointsMatch ? pointsMatch[1] : "0";
     const level = levelMatch ? levelMatch[1] : "0";
+
+    // Count trophies and badges
     const trophies = $("img[alt='Trophy']").length;
     const badges = $("img[alt='Badge']").length;
 
+    // Build SVG
     const svg = `
       <svg xmlns="http://www.w3.org/2000/svg" width="400" height="180" role="img">
         <rect width="100%" height="100%" fill="${theme === "dark" ? "#0d1117" : "#fff"}" rx="10" />
@@ -39,13 +54,15 @@ export default async function handler(req, res) {
 
     res.setHeader("Content-Type", "image/svg+xml");
     res.status(200).send(svg);
+
   } catch (error) {
+    // Graceful error SVG
     res.setHeader("Content-Type", "image/svg+xml");
-    res.status(500).send(`
+    res.status(200).send(`
       <svg xmlns="http://www.w3.org/2000/svg" width="400" height="100">
-        <rect width="100%" height="100%" fill="red" />
+        <rect width="100%" height="100%" fill="red" rx="10" />
         <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="16">
-          Error: ${error.message}
+          ${error.message}
         </text>
       </svg>
     `);
