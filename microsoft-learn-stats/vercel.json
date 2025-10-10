@@ -1,6 +1,6 @@
 {
   "functions": {
-    "api/learn.js": {
+    "pages/api/learn.js": {
       "runtime": "vercel-node@20.0.0",
       "maxDuration": 60,
       "memory": 1024,
