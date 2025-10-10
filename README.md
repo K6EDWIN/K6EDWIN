@@ -39,7 +39,7 @@
 </div>
 <div align="center">
 
-# 🏅 Microsoft Learn Stats  
+# 🏅 Microsoft Stats  
 
 ![Microsoft Learn Stats](https://k6-edwin.vercel.app/api/learn?username=edwinkamau-8497&theme=dark)
 
