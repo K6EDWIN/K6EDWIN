@@ -12,12 +12,28 @@
 
 <div align="center">
 
-## 🌐 Socials  
+## 🌐 Get To know Me  
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/edwin-kamau-5960a923a)  
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:edkyle06@gmail.com)  
+<p align="center">
+  <a href="https://linkedin.com/in/edwin-kamau-5960a923a" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="mailto:edkyle06@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://g.dev/Edkyle" target="_blank">
+    <img src="https://img.shields.io/badge/Android_Developer-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android Developer"/>
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://learn.microsoft.com/en-us/users/edwinkamau-8497/" target="_blank">
+    <img src="https://img.shields.io/badge/Microsoft_Learn-258FFA?style=for-the-badge&logo=microsoft&logoColor=white" alt="Microsoft Learn"/>
+  </a>
+</p>
 
 </div>
+
 
 ---
 
@@ -29,21 +45,6 @@
 <div align="center"> 
 
 ---
-
-<div align="center">
-
-# 🏅 Microsoft Learn Achievements  
-
-[![Microsoft Learn](https://img.shields.io/badge/Microsoft_Learn_Profile-258FFA?style=for-the-badge&logo=microsoft&logoColor=white)](https://learn.microsoft.com/en-us/users/edwinkamau-8497/)  
-
-</div>
-<div align="center">
-
-# 🏅 Microsoft Stats  
-
-![Microsoft Learn Stats](https://k6-edwin.vercel.app/api/learn?username=edwinkamau-8497&theme=dark)
-
-</div>
 
 
 
