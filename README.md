@@ -3,8 +3,10 @@
 # 💫 About Me  
 
 🎓 CS student @ Strathmore University | 💻 Web Design Enthusiast | 🤖 Exploring AI  
-✨ Skilled in HTML, CSS, JavaScript, and Database Management  
-🚀 Passionate about building user-friendly platforms and blending creativity with technology.  
+  **Mobile:** Kotlin, Jetpack Compose
+  |**Web:** HTML5, CSS3, JavaScript|
+  **Data/Backend:** Python, SQL, Firebase|
+- 🚀 Passionate about building user-friendly platforms and blending creativity with technology.  
 
 </div>
 
