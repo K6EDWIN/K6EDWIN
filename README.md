@@ -4,7 +4,7 @@
 
 <br/>
 
-<a href="https://k6edwin.github.io" target="_blank">
+<a href="https://edwin-kamau-portfolio.vercel.app/" target="_blank">
   <img src="https://img.shields.io/badge/Live%20portfolio-D8FF4E?style=for-the-badge&logo=googlechrome&logoColor=101313&labelColor=D8FF4E" alt="Live portfolio"/>
 </a>
 <a href="mailto:edkyle06@gmail.com">
