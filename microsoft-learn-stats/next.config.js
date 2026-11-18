@@ -5,4 +5,4 @@ const nextConfig = {
     '/api/learn': ['./node_modules/puppeteer/**'],
   },
 }
-module.exports = nextConfig
+export default nextConfig
