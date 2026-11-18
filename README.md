@@ -46,57 +46,149 @@ I work across **Kotlin, Jetpack Compose, React Native, Node.js and PostgreSQL**,
 
 ## <img src="https://api.iconify.design/lucide/folder-open.svg?color=%2300B368" width="26" align="absmiddle"/> Selected Work
 
-<sub>Click a project to expand it.</sub>
+<sub>Click a project to expand it. Every project below is live or has a demo.</sub>
 
 <details>
-<summary><b>01 &nbsp;&nbsp; MotionIQ</b></summary>
+<summary><b>01 &nbsp;&nbsp; Haven</b></summary>
 <br/>
 
-AI-powered fitness app that analyzes activity data to give personalized performance insights, coaching and route recommendations. Starting with cycling.
+A privacy-focused AI companion prototype with ephemeral conversations, sentiment analysis, optional mood check-ins, and mental health resource links. The wellness features are project capabilities, not clinical guarantees.
+
+[Source code](https://github.com/K6EDWIN/Haven) &nbsp;·&nbsp; [Live site (Render)](https://haven-7bp5.onrender.com/)
+
+</details>
+
+<details>
+<summary><b>02 &nbsp;&nbsp; Chess</b></summary>
+<br/>
+
+A Python chess engine with a Pygame interface, bitboard move generation, full chess rules, and a Minimax AI opponent.
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+
+[Source code](https://github.com/K6EDWIN/Chess) &nbsp;·&nbsp; [Live demo (Replit)](https://replit.com/@edkyle06/Chess)
+
+</details>
+
+<details>
+<summary><b>03 &nbsp;&nbsp; Quickmatatu</b></summary>
+<br/>
+
+A React Native matatu transport prototype for commuters and drivers, with route, booking, and arrival-time features.
 
 <img src="https://img.shields.io/badge/React%20Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native"/>
-<img src="https://img.shields.io/badge/Expo-1C1E24?style=flat-square&logo=expo&logoColor=white" alt="Expo"/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+
+[Source code](https://github.com/K6EDWIN/Quickmatatu) &nbsp;·&nbsp; [Live site](https://quickmatatu.vercel.app)
 
 </details>
 
 <details>
-<summary><b>02 &nbsp;&nbsp; JK Bloodbank</b></summary>
+<summary><b>04 &nbsp;&nbsp; Fort Sentinel Password Manager</b></summary>
 <br/>
 
-Full-stack blood donation and supply-chain platform that connects eligible donors to hospitals in real time, with distance-ranked donor matching and GPS cold-chain temperature and custody monitoring.
+A local-first password vault that encrypts data on the user's device using PBKDF2 key derivation and AES-GCM authenticated encryption.
 
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>
-<img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/>
-<img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT"/>
-<img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="SQL"/>
+[Source code](https://github.com/K6EDWIN/Password-Manager) &nbsp;·&nbsp; [Live site](https://fortsentinel.vercel.app)
 
 </details>
 
 <details>
-<summary><b>03 &nbsp;&nbsp; Intelligent Stakeholder Matching</b></summary>
+<summary><b>05 &nbsp;&nbsp; PrideConnect</b></summary>
 <br/>
 
-Hybrid recommendation system (content-based and collaborative filtering) for matching people in mentorship and professional networking contexts. Capstone project at Strathmore University.
+A mentorship and professional networking app with explainable stakeholder recommendations, member profiles, connections, events, and career opportunities. Built on a hybrid recommendation system (content-based and collaborative filtering). This is a student capstone project, not an official Kenya Airways service.
 
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>
 <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
 <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" alt="Prisma"/>
 
+[Source code](https://github.com/K6EDWIN/Intelligent-stakeholder-matching) &nbsp;·&nbsp; [Live site](https://intelligent-stakeholder-matching.vercel.app)
+
 </details>
 
 <details>
-<summary><b>04 &nbsp;&nbsp; Kutana</b></summary>
+<summary><b>06 &nbsp;&nbsp; JK Bloodbank</b></summary>
 <br/>
 
-Offline-first event safety app built on a Bluetooth LE mesh: nearby group finding, local message relay and cryptographically gated alerts.
+A donor-to-hospital matching and blood supply-chain platform with distance-ranked donor matching, GPS cold-chain monitoring, and emergency alerts.
+
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>
+<img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+<img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT"/>
+<img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="SQL"/>
+
+[Source code](https://github.com/K6EDWIN/JK-Bloodbank) &nbsp;·&nbsp; [Live site](https://jk-bloodbank.vercel.app)
+
+</details>
+
+<details>
+<summary><b>07 &nbsp;&nbsp; Kutana</b></summary>
+<br/>
+
+An offline-first event safety and group-finding app that uses phone-to-phone proximity (Bluetooth LE mesh) to help people find their group and relay security alerts.
 
 <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin"/>
 <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white" alt="Jetpack Compose"/>
 <img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/>
 <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" alt="Prisma"/>
+
+[Source code](https://github.com/K6EDWIN/kutana) &nbsp;·&nbsp; [Backend](https://kutana-backend.vercel.app) &nbsp;·&nbsp; [Android releases](https://github.com/K6EDWIN/kutana/releases/latest)
+
+</details>
+
+<details>
+<summary><b>08 &nbsp;&nbsp; MotionIQ</b></summary>
+<br/>
+
+A cycling activity app that imports GPX, FIT, or TCX files and produces ride statistics, maps, and AI-generated insights.
+
+<img src="https://img.shields.io/badge/React%20Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native"/>
+<img src="https://img.shields.io/badge/Expo-1C1E24?style=flat-square&logo=expo&logoColor=white" alt="Expo"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+
+[Source code](https://github.com/K6EDWIN/MotionIQ) &nbsp;·&nbsp; [Web app / backend](https://motioniq-two.vercel.app) &nbsp;·&nbsp; [Android releases](https://github.com/K6EDWIN/MotionIQ/releases/latest)
+
+</details>
+
+<details>
+<summary><b>09 &nbsp;&nbsp; Whose Like?</b></summary>
+<br/>
+
+A real-time party game where players guess who liked, reposted, or saved a video, with phone-based play and a shared room display.
+
+[Source code](https://github.com/K6EDWIN/whose) &nbsp;·&nbsp; [Live site](https://whose-eta.vercel.app)
+
+</details>
+
+<details>
+<summary><b>10 &nbsp;&nbsp; MediView3D</b></summary>
+<br/>
+
+An educational anatomy visualization project combining graphics algorithms, an OpenGL desktop prototype, and a browser-based 3D studio. It is an educational prototype, not a medical tool.
+
+[Source code](https://github.com/K6EDWIN/MediView3D) &nbsp;·&nbsp; [Live site](https://mediview-liard.vercel.app)
+
+</details>
+
+<details>
+<summary><b>11 &nbsp;&nbsp; FabricStudio</b></summary>
+<br/>
+
+A sofa and upholstery preview tool with a rotatable 3D model, fabric options, and a way to send selections to the workshop. On-screen fabric textures are illustrative.
+
+[Source code](https://github.com/K6EDWIN/FabricStudio) &nbsp;·&nbsp; [Live site](https://fabric-studio-lyart.vercel.app)
+
+</details>
+
+<details>
+<summary><b>12 &nbsp;&nbsp; The Ultimate Hangout</b></summary>
+<br/>
+
+A Nairobi game-night platform for events, tournaments, ticket booking, check-in, and score tracking.
+
+[Source code](https://github.com/K6EDWIN/The-ultimate-hangout) &nbsp;·&nbsp; [Live site](https://the-ultimate-hangout.vercel.app)
 
 </details>
 
